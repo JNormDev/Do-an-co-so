@@ -1,0 +1,124 @@
+body{
+    box-sizing: border-box;
+    width: 100%;
+    height: 900px; 
+}
+.head{
+    background-color:#202020;
+    color: #fff;
+    height: 50px;
+}
+.logo{
+    font-family:'typo';
+    font-size:35px;
+    color:#ffbb33;
+    margin:15px;
+}
+.title1{
+    font: 16px "Century Gothic", "Times Roman", sans-serif;
+
+}
+/* Log in Btn Top-Right */
+.sub1{
+
+    width:90px;
+    color:#fff;
+    background:orange;
+    font-size:15px;
+    height:35px;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding:7px;
+    width:100px;
+}
+/* Btn Top Right Account-Dash Page */
+.top
+{
+    margin-top:13px;
+}
+
+.log
+{
+    margin: 10px;
+    margin-right:60px;
+    margin-left:5px;
+    color:orange;
+    text-decoration:none;
+    font-size:20px;
+    font-size:15px;
+}
+.log:hover
+{
+    
+    color:#9acd32;
+    border-top:2px solid;
+    border-color:orange;
+    text-decoration:none;
+}
+
+.container{
+    height: 720px;
+}
+.Background{
+    height: 800px;
+    border: 1px solid #202020;
+    /* background-image: url("https://usersnap.com/blog/wp-content/uploads/2017/05/web-application-testing.png"); */
+    background-image: url("https://images.unsplash.com/photo-1516397281156-ca07cf9746fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.ParentForm{
+    margin-top: 50px;
+}
+.form{
+    margin-top: 50px;
+    box-shadow: 8px 8px 8px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 8px 8px 8px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 8px 8px 2px rgba(0,0,0,0.75);
+}
+/* Form Btn */
+.sub
+{
+    width:100%;
+    background-color:#9acd32;
+    font-size:20px;
+    padding:2px;
+    margin-top:15px;
+    margin-right:20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.sub:hover{
+    color: #fff;
+}
+
+.footer{
+    padding-top: 10px;
+    padding-left: 120px;
+    height: 70px;
+    margin-right: 0px;
+    font-size:15px;
+    text-align:center;
+    border-top:1px solid;
+    border-color:#323232;
+    background-color:#202020;
+}
+.footer a
+{
+    margin:25px;
+    color:orange;
+    text-decoration:none;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+
+}
+.footer a:hover
+{
+    text-decoration:none;
+    color:#9acd32;
+    border-top:2px solid;
+    border-color:orange;
+
+}
